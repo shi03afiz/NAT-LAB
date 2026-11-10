@@ -39,4 +39,22 @@ First ping failed because i forgot default route, so i added ip route 0.0.0.0 0.
  What I Learned.
 NAT enable all PCs in the topology to share one public IP to reach the internet.
 
+## Screenshots
+
+### Network Topology
+![Topology](Network%20Topology%20showing%20LAN,%20my%20router,%20ISP%20router%20and%20internet%20server.png)
+
+### Ping to Default Gateway
+![Ping Gateway](ping%20to%20default%20gateway%20192.168.1.1%20from%20pc.png)
+
+### Ping to ISP Router
+![Ping ISP](Successful%20ping%20to%20ISP%20router%20209.165.200.2%20from%20PC%203.png)
+
+### Ping to WAN Interface
+![Ping WAN](Successful%20ping%20to%20WAN%20interface%20209.165.200.1.png)
+
+### Web Access to Internet Server
+![Web Access](Successful%20Web%20Access%20to%20Internet%20Server%20(8.8.8.2)%20from%20PC5%20via%20NAT.png)
+
+
 
